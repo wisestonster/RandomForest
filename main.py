@@ -1,5 +1,7 @@
 # https://www.codeit.kr/learn/courses/machine-learning/3132
 # 07. 랜덤 포레스트로 악성/양성 유방암 분류하기
+# 결정트리는 훈련데이터에 과대적합되는 경향이 있다.  랜덤 포레스트는 이 문제를 회피할 수 있는 방법임
+# n_estimators: 트리의 갯수
 
 from sklearn.datasets import load_breast_cancer
 from sklearn.model_selection import train_test_split
